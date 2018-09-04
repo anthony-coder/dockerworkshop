@@ -1,0 +1,71 @@
+
+# Created by https://www.gitignore.io/api/osx
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# harbor config that contains sensitive info
+.cfg 
+# End of https://www.gitignore.io/api/osx
+
+# Created by https://www.gitignore.io/api/vim,terraform
+
+### Terraform ###
+# Compiled files
+*.tfstate
+*.tfstate.*
+
+# Module directory
+.terraform/
+
+# .tfvars files
+*.tfvars
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+
+# End of https://www.gitignore.io/api/vim,terraform
+
+# Custom: to ignore custom-named *.vim files
+*.vim
+
+# Custom: to ignore *.crt, *.csr, *.key, *.srl files uploaded with user data.
+*.crt
+*.cert
+*.csr
+*.key
+*.srl
